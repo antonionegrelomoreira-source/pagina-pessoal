@@ -37,10 +37,25 @@ justify-content: flex-end;
 width: 25%;
 padding-right: 30px;
 }
-.banner1{
-display: flex;
-justify-content: center;
+.banner1 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden; 
 }
+
+/* Configuração da imagem responsiva */
+.banner1 .escola\.image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+}
+
+
+
+
 .estudante_titulo{
 padding: 50px;
 text-align: center;
