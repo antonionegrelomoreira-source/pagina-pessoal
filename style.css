@@ -46,7 +46,7 @@ padding-right: 30px;
 }
 
 /* Configuração da imagem responsiva */
-.banner1 .escola\.image {
+.escola.image {
     max-width: 100%;
     height: auto;
     display: block;
