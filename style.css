@@ -19,7 +19,7 @@ display: flex;
 align-items: center;
 justify-content: center;
 }
-.cabecalho_imagem {
+.cabecalho_imagem{
     width: 200px;
     height: 200px;
     border-radius: 50%;
@@ -47,13 +47,6 @@ padding-right: 30px;
 
 /* Configuração da imagem responsiva */
 .escola.image {
-    max-width: 100%;
-    height: auto;
-    display: block;
-    object-fit: cover;
-}
-
-.banner {
     width: 1920px;
     height: 800px;
     max-width: 100%;
@@ -61,6 +54,7 @@ padding-right: 30px;
     display: block;
     margin: 0 auto;
 }
+
 
 
 .estudante_titulo{
