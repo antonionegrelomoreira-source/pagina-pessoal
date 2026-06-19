@@ -48,12 +48,11 @@ padding-right: 30px;
 
 /* Configuração da imagem responsiva */
 .escola.image {
-    width: 1920px;
-    height: 800px;
-    max-width: 100%;
+    .escola\.image 
+    width: 100%;
+    height: 200px;
     object-fit: cover;
-    display: block;
-    margin: 0 auto;
+
 }
 
 
