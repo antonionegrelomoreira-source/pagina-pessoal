@@ -47,14 +47,11 @@ padding-right: 30px;
 }
 
 /* Configuração da imagem responsiva */
-.escola.image {
-    .escola\.image 
+.escola\.image {
     width: 100%;
     height: 200px;
     object-fit: cover;
-
 }
-
 
 
 .estudante_titulo{
