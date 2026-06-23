@@ -36,12 +36,14 @@ font-size: 30px;
 .sociais{
 display: flex;
 justify-content: flex-end;
+gap: 10px;
 width: 25%;
 padding-right: 30px;
 }
 
 .icone-social{
-    width: 35px;
+    width: 30px;
+    height: 30px;
 }
 .banner1 {
     width: 100%;
@@ -68,7 +70,9 @@ text-align: center;
 text-align: center;
 }
 .estudante-imagem{
-width: 120px;
+width: 100px;
+height: 250px;
+object-fit: cover;
 }
 .estudante-icone{
 width: 38px;
@@ -81,12 +85,12 @@ padding: 24px 0;
 
 .estudante-div{
 text-align: center;
-padding: 24px 0;
+padding: 180px 0;
 }
 .estudantes_todos{
 display: flex;
 flex-wrap: wrap;
-justify-content: space-around;
+justify-content:center;
 gap: 40px;
 }
 .escola{
