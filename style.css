@@ -23,6 +23,7 @@ justify-content: center;
     width: 120px;
     height: 120px;
     border-radius: 50%;
+    object-fit: cover;
     border: 3px solid  white;
 }
 
@@ -30,13 +31,17 @@ justify-content: center;
 padding: 50px;
 text-align: center;
 width: 50%;
-font: 30px;
+font-size: 30px;
 }
 .sociais{
 display: flex;
 justify-content: flex-end;
 width: 25%;
 padding-right: 30px;
+}
+
+.icone-social{
+    width: 35px;
 }
 .banner1 {
     width: 100%;
@@ -46,10 +51,10 @@ padding-right: 30px;
     overflow: hidden; 
 }
 
-/* Configuração da imagem responsiva */
-.escola\.image {
+
+.escola-image {
     width: 100%;
-    height: 200px;
+    height: 400px;
     object-fit: cover;
 }
 
@@ -70,17 +75,19 @@ width: 38px;
 padding: 4px 8px;
 }
 .estudante{
-background-image: background-color(#faae43);
+background-image: background-color #faae43;
 padding: 24px 0;
 }
 
-.estudante.div{
+.estudante-div{
 text-align: center;
 padding: 24px 0;
 }
 .estudantes_todos{
 display: flex;
+flex-wrap: wrap;
 justify-content: space-around;
+gap: 40px;
 }
 .escola{
 background-image: linear-gradient(#40A2E3,#7FC2EF);
