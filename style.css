@@ -71,7 +71,7 @@ text-align: center;
 }
 .estudante-imagem{
 width: 100px;
-height: 250px;
+height: 300px;
 object-fit: cover;
 }
 .estudante-icone{
@@ -94,6 +94,7 @@ justify-content:space-around;
 align-items: flex-start;
 gap: 40px;
 }
+
 .escola{
 background-image: linear-gradient(#40A2E3,#7FC2EF);
 color: white;
