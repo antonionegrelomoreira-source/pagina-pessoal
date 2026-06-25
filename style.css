@@ -53,13 +53,12 @@ padding-right: 30px;
     overflow: hidden; 
 }
 
-
-.escola-div img {
+.escola-imagem {
     width: 180px;
     height: 260px;
     object-fit: cover;
-}
-
+    border-radius: 10px;
+} 
 
 .estudante_titulo{
 padding: 50px;
