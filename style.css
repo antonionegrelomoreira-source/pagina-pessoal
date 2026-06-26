@@ -76,7 +76,7 @@ text-align: center;
 .estudante-imagem{
 width: 180px;
 height: 300px;
-object-fit: cover;
+object-fit: center;
 }
 .estudante-icone{
 width: 38px;
