@@ -53,6 +53,10 @@ padding-right: 30px;
     overflow: hidden; 
 }
 
+.banner-texto{
+    text-align: center;
+}
+
 .escola-imagem {
     width: 180px;
     height: 260px;
