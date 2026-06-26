@@ -47,7 +47,7 @@ padding-right: 30px;
 }
 .banner1 {
     width: 100%;
-    background-color: #95CCDD #D0E7E6;
+    background: linear-gradient(90deg #95CCDD #D0E7E6;) 
     display: flex;
     justify-content: center;
     align-items: center;
