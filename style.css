@@ -89,7 +89,10 @@ padding: 24px 0;
 
 .estudante-div{
 text-align: center;
-
+border: 2px solid #3d3d3d;
+border-radius: 8px;
+padding: 12px;
+background: #ffffff;
 }
 .estudantes_todos{
 display: flex;
