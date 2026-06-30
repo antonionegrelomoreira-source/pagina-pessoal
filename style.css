@@ -97,7 +97,6 @@ gap: 40px;
 .escola{
 background-image: linear-gradient(#1a365d,#2c5282);
 color: white;
-text-align: center;
 justify-content:center;
 display:block;
 }
@@ -143,4 +142,32 @@ body{
     border-radius: 8px;
     padding: 12px;
     background: #ffffff;
+}
+
+
+
+.surpresa {
+  text-align: center;
+  margin: 25px auto;
+}
+.botao-surpresa {
+  background-color: #006633;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+#conteudo-surpresa {
+  display: none;
+  margin-top: 12px;
+  padding: 12px;
+  background: #e2e8f0;
+  border-radius: 6px;
+  color: #1a365d;
+}
+.img-surpresa {
+  height: 70px;
+  margin: 8px;
+  display: inline-block;
 }
