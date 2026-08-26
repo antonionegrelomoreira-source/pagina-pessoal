@@ -184,30 +184,33 @@ display: block;
   font-size: 16px;
 }
 
+/* Centraliza e aplica a cor do topo */
 ul.horizontal {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #2b3a55; /* Azul do seu cabeçalho */
+  display: flex;             /* Flexbox para centralizar */
+  justify-content: center;   /* Centraliza os itens no meio da tela */
 }
 
-ul.horizontal li {
-    float: left;
-}
-
+/* Estilo dos botões */
 ul.horizontal li a {
-    display: inline-block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
+  display: block;
+  color: #ffffff;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+  font-family: sans-serif;
+  font-weight: bold;
 }
 
-ul.horizontal li a:hover:not(.active) {
-    background-color: #000;
+/* Efeito ao passar o mouse */
+ul.horizontal li a:hover {
+  background-color: #3f5173; /* Azul um pouco mais claro */
 }
 
+/* Botão da página ativa */
 ul.horizontal li a.active {
-    background-color:#04AA6D;
+  background-color: #4eb068; /* Verde de destaque */
 }
